@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/PlayerAssets/PA_Player.uasset",
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/Animations/AS_Idle.uasset",
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/Animations/AS_GunWalk.uasset",
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/Animations/AS_GunIdle.uasset",
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/Levels/L_StartMenu.umap",
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/PlayerAssets/Eve_By_J_Gonzales.uasset",
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/PlayerAssets/Eve_By_J_Gonzales_Anim.uasset",
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/PlayerAssets/Eve_By_J_Gonzales_Skeleton.uasset",
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/PlayerAssets/SpacePirate_M.uasset",
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/PlayerAssets/SpacePirate_diffuse.uasset",
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/PlayerAssets/SpacePirate_normal.uasset",
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/PlayerAssets/SpacePirate_specular.uasset",
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/Blueprints/WidgetBlueprint/WB_StartMenu.uasset",
+				"C:/Users/pcook7/Desktop/UnrealEngine2026/Jan142026/Content/Blueprints/GameModes/GM_StartMenu.uasset"
+			]
+		}
+	]
+}
