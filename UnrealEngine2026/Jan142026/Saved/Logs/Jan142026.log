@@ -1157,3 +1157,235 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.27-00.10.59:463][ 16]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3.912256, Update Interval: 328.252197
 [2026.02.27-00.11.01:788][173]LogSlate: Took 0.000463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2026.02.27-00.11.02:429][221]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.02.27-00.11.51:946][ 24]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.27-00.11.51:952][ 24]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.27-00.11.51:952][ 24]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2026.02.27-00.11.51:955][ 24]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 2.085 ms
+[2026.02.27-00.11.51:957][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.27-00.11.51:960][ 24]LogPlayLevel: Display: Creating online subsystem for client :Context_2
+[2026.02.27-00.11.51:962][ 24]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2026.02.27-00.11.51:976][ 25]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2026.02.27-00.11.51:983][ 25]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.27-00.11.51:984][ 25]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 921 us
+[2026.02.27-00.11.51:984][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007403s)
+[2026.02.27-00.11.51:984][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.007467s)
+[2026.02.27-00.11.52:030][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.02.27-00.11.52:031][ 25]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2026.02.27-00.11.52:033][ 25]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.27-00.11.52:033][ 25]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.27-00.11.52:033][ 25]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.27-00.11.52:033][ 25]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.27-00.11.52:035][ 25]LogWorldPartition: Display: WorldPartition initialize took 1.698 ms (total: 61.980 ms)
+[2026.02.27-00.11.52:035][ 25]LogPlayLevel: PIE: World Init took: (0.003938s)
+[2026.02.27-00.11.52:036][ 25]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.02.27-00.11.52:036][ 25]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.27-00.11.52:036][ 25]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.27-00.11.52:036][ 25]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.27-00.11.52:036][ 25]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.27-00.11.52:036][ 25]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.27-00.11.52:036][ 25]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.27-00.11.52:036][ 25]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.27-00.11.52:036][ 25]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.27-00.11.52:036][ 25]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.27-00.11.52:036][ 25]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.27-00.11.52:036][ 25]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.27-00.11.52:039][ 25]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.27-00.11.52:056][ 25]LogAudioMixer: Display: Using Audio Hardware Device Headphones (HyperX Cloud III)
+[2026.02.27-00.11.52:056][ 25]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.27-00.11.52:056][ 25]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.27-00.11.52:056][ 25]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.27-00.11.52:057][ 25]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.02.27-00.11.52:057][ 25]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.02.27-00.11.52:060][ 25]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.02.27-00.11.52:060][ 25]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.02.27-00.11.52:060][ 25]LogInit: FAudioDevice initialized with ID 2.
+[2026.02.27-00.11.52:060][ 25]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_FirstPerson'.
+[2026.02.27-00.11.52:060][ 25]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.02.27-00.11.52:066][ 25]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.02.27-00.11.52:069][ 25]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2026.02.26-19.11.52
+[2026.02.27-00.11.52:069][ 25]LogWorld: Bringing up level for play took: 0.001976
+[2026.02.27-00.11.52:125][ 25]PIE: Server logged in
+[2026.02.27-00.11.52:127][ 25]PIE: Play in editor total start time 0.175 seconds.
+[2026.02.27-00.11.52:198][ 26]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.27-00.12.05:963][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.27-00.12.05:963][942]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2026.02.27-00.12.05:964][942]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2026.02.27-00.12.05:965][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.27-00.12.05:965][942]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2026.02.27-00.12.05:967][942]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.27-00.12.05:969][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.27-00.12.05:983][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.27-00.12.05:983][942]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.02.27-00.12.05:983][942]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.02.27-00.12.05:985][942]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.02.27-00.12.05:993][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.02.27-00.12.06:057][944]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2026.02.27-00.12.37:732][119]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.02.27-00.12.48:988][291]LogDerivedDataCache: C:/Users/emues/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: ================================================
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Total job queries 2,550, among them cache hits 634 (24.86%), DDC hits 1,823 (71.49%), Duplicates 91 (3.57%)
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Tracking 1,825 distinct input hashes that result in 1,151 distinct outputs (63.07%)
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: RAM used: 11.72 MiB of 819.20 MiB budget. Usage: 1.43%
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Shaders Compiled: 2
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Time job spent in pending queue: average 0.11 s, longest 0.11 s
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Job execution time: average 1.37 s, max 1.42 s
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Job life time (pending + execution): average 1.48 s, max 1.53
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Shader code size: total 28.887 KiB, numShaders 2, average 14.443 KiB, min 13.957 KiB, max 14.93 KiB
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.53 s
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Average processing rate: 1.31 jobs/sec
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Total thread time: 2.088 s
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Total thread preprocess time: 33.14 s
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Percentage time preprocessing: 1586.88%
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Effective parallelization: 1.37 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.136552
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    2 times, average 1.04 sec, max 1.07 sec, min 1.02 sec)
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display:                                TVirtualTextureVSDisplacement (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display:                                   TVirtualTextureVSBaseColor (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display:                                   TVirtualTexturePSBaseColor (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-00.13.58:711][ 85]LogShaderCompilers: Display:                    TVirtualTextureVSBaseColorNormalRoughness (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 100.00% of total time (compiled    2 times, average 1.04 sec, max 1.07 sec, min 1.02 sec)
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display:                                   TVirtualTextureVSBaseColor - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display:                                   TVirtualTexturePSBaseColor - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display:                    TVirtualTextureVSBaseColorNormalRoughness - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display:                                 TVirtualTextureVSWorldHeight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display: === Material stats ===
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display: Materials Translated:    144
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display: Material Translation Only: 0.04 s (33%)
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.02.27-00.13.58:712][ 85]LogShaderCompilers: Display: ================================================
+[2026.02.27-00.16.28:099][160]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 332.558014
+[2026.02.27-00.16.29:099][162]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.27-00.16.29:099][162]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 333.225128, Update Interval: 357.932678
+[2026.02.27-00.22.12:840][362]LogStreaming: Display: FlushAsyncLoading(393): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.27-00.22.12:886][363]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.02.27-00.22.12:963][366]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.02.27-00.22.15:932][558]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.02.27-00.22.15:978][559]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.02.27-00.22.30:701][578]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 695.153992
+[2026.02.27-00.22.30:815][586]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.27-00.22.30:815][587]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 695.253174, Update Interval: 318.470398
+[2026.02.27-00.23.38:230][207]LogSlate: External Image Picker: DecompressImage failed
+[2026.02.27-00.24.55:599][981]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.02.27-00.24.55:757][987]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.02.27-00.24.55:783][988]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2026.02.27-00.24.56:029][999]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.02.27-00.24.56:082][  1]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: ================================================
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Total job queries 2,573, among them cache hits 636 (24.72%), DDC hits 1,842 (71.59%), Duplicates 91 (3.54%)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Tracking 1,846 distinct input hashes that result in 1,167 distinct outputs (63.22%)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: RAM used: 11.84 MiB of 819.20 MiB budget. Usage: 1.45%
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Shaders Compiled: 4
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Average time worker was idle: 704.98 s
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.11 s
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Job execution time: average 0.92 s, max 1.42 s
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Job life time (pending + execution): average 0.99 s, max 1.53
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Shader code size: total 42.875 KiB, numShaders 4, average 10.719 KiB, min 6.379 KiB, max 14.93 KiB
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.09 s
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Average processing rate: 1.92 jobs/sec
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Total thread time: 2.655 s
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Total thread preprocess time: 33.419 s
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Percentage time preprocessing: 1258.71%
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Effective parallelization: 1.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.127202
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    2 times, average 1.04 sec, max 1.07 sec, min 1.02 sec)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display:                                   TVirtualTexturePSBaseColor (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display:                                 TVirtualTextureVSWorldHeight (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 78.66% of total time (compiled    2 times, average 1.04 sec, max 1.07 sec, min 1.02 sec)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.52% of total time (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.82% of total time (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display:                                 TVirtualTextureVSWorldHeight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display:                                       TVirtualTextureVSMask4 - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: === Material stats ===
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Materials Translated:    144
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Material Translation Only: 0.04 s (33%)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.02.27-00.25.59:104][187]LogShaderCompilers: Display: ================================================
+[2026.02.27-00.27.56:050][975]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1020.499451
+[2026.02.27-00.27.56:145][981]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.27-00.27.56:145][981]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1020.578369, Update Interval: 347.477051
+[2026.02.27-00.30.37:104][796]LogSlate: Window 'Project Settings' being destroyed
+[2026.02.27-00.30.37:144][796]LogSlate: Window 'Project Settings' being destroyed
+[2026.02.27-00.31.02:023][373]LogSlate: External Image Picker: DecompressImage failed
+[2026.02.27-00.33.53:855][858]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1378.310303
+[2026.02.27-00.33.53:951][864]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.27-00.33.53:951][864]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1378.390015, Update Interval: 302.114929
+[2026.02.27-00.35.04:523][251]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2026.02.27-00.35.04:524][251]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.02.27-00.35.04:587][251]LogStreaming: Display: FlushAsyncLoading(394): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.27-00.35.05:679][251]LogSlate: Took 0.000504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.02.27-00.35.57:316][759]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2026.02.27-00.35.57:341][759]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2026.02.27-00.35.57:348][759]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2026.02.27-00.35.57:348][759]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.27-00.35.57:417][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.02.27-00.36.51:412][439]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: ================================================
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Total job queries 2,578, among them cache hits 637 (24.71%), DDC hits 1,843 (71.49%), Duplicates 91 (3.53%)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Tracking 1,850 distinct input hashes that result in 1,170 distinct outputs (63.24%)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: RAM used: 11.86 MiB of 819.20 MiB budget. Usage: 1.45%
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Shaders Compiled: 7
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Jobs assigned 7, completed 7 (100%)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Average time worker was idle: 748.67 s
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.11 s
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Job execution time: average 0.78 s, max 1.42 s
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Job life time (pending + execution): average 0.85 s, max 1.53
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Shader code size: total 65.359 KiB, numShaders 7, average 9.337 KiB, min 5.309 KiB, max 14.93 KiB
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.97 s
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Jobs were issued in 7 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Average processing rate: 2.35 jobs/sec
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Total thread time: 3.961 s
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Total thread preprocess time: 33.485 s
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Percentage time preprocessing: 845.27%
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Effective parallelization: 1.33 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.133173
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    2 times, average 1.04 sec, max 1.07 sec, min 1.02 sec)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.68 sec, max 0.68 sec, min 0.68 sec)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.35 sec, max 0.36 sec, min 0.33 sec)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 52.72% of total time (compiled    2 times, average 1.04 sec, max 1.07 sec, min 1.02 sec)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.46% of total time (compiled    2 times, average 0.35 sec, max 0.36 sec, min 0.33 sec)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 17.29% of total time (compiled    1 times, average 0.68 sec, max 0.68 sec, min 0.68 sec)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display:                                                 FLumenCardPS - 6.62% of total time (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.91% of total time (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: === Material stats ===
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Materials Translated:    147
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Material Total Translate Time: 0.13 s
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Material Translation Only: 0.04 s (31%)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.02.27-00.37.59:136][ 80]LogShaderCompilers: Display: ================================================
+[2026.02.27-00.39.25:127][964]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1709.586670
+[2026.02.27-00.39.25:214][970]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.27-00.39.25:214][970]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1709.658936, Update Interval: 341.782288
+[2026.02.27-00.39.39:680][950]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.02.27-00.39.41:166][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.02.27-00.39.42:935][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.02.27-00.39.43:196][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
